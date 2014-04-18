@@ -1,0 +1,64 @@
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 0;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+.text-muted {
+  color: #999;
+}
+.text-primary {
+  color: #428bca;
+}
+
+.bs-docs-masthead .bs-docs-booticon {
+margin: 0 auto 30px;
+}
+.bs-docs-booticon-outline {
+background-color: transparent;
+border: 5px solid #89dcd8;
+  border-radius: 20px;
+}
+.bs-docs-booticon {
+position: relative
+margin-top: 40px;
+display: block;
+font-weight: 500;
+font-size: 50px;
+color: #89dcd8;
+background-color: #AC371E;
+border-radius: 20px;
+cursor: default;
+

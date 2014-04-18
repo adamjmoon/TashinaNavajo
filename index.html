@@ -1,50 +1,226 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640" />
+<!-- saved from url=(0047) -->
+<html lang="en" class=" js no-touch">
 
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Scrolling Layout</title>
+  <link rel="stylesheet" type="text/css" href="css/default.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/component.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <link rel="stylesheet" type="text/css" href="css/viewModeSwitch.css">
+  <link rel="stylesheet" type="text/css" href="css/frame.css">
+  <link rel="stylesheet" type="text/css" href="css/responsiveGrid.css">
+  
+  <script src="js/modernizr.custom.js"></script>
+</head>
 
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>Tashina Navajo by adamjmoon</title>
-  </head>
-
-  <body>
-    <a id="forkme_banner" href="https://github.com/adamjmoon/TashinaNavajo">View on GitHub</a>
-    <div class="shell">
-
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Tashina Navajo</h1>
-            <h2></h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
-
+<body>
+  <div class="container">
+    <header class="header header--fixed" data-bind="headroom">
+      <i class="brand fa fa-crosshairs fa-2x">
+      </i><span class="brand-name">Tashina Navajo</span>
+      <a id="top-shopping-cart" href="#" class="top-shopping-cart-link">
+        <i class="top-shopping-cart-icon brand fa fa-shopping-cart fa-2x"></i>
+      </a>
+      <div class="fieldcontainer">
+        
+        <input type="text" name="s" id="s" class="searchfield" placeholder="Search Products..." tabindex="1">
+        <a name="searchbtn" id="searchbtn"></a>  
+      </div>
+      <a id="menu-toggle" href="#" class="btn btn-links toggle visible-xs">
+        <i class="fa fa-bars fa-lg"></i>
+      </a>
       
-
-
-      <span class="banner-fix"></span>
-
-
       
-
+    </header>
+    <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-links toggle">
+          <i class="fa fa-times fa-lg"></i>
+        </a>
+          
+        <li>
+          <a href="#products">Products</a>
+        </li>
+        
+        <li>
+          <a href="#subscribe">Subscribe</a>
+        </li>
+      </ul>
     </div>
+    <!-- End side menu -->
+      
+    <div id="cbp-fbscroller" class="cbp-fbscroller">
+      <nav>
+        <a href="#fbsection1" class="">Section 1</a>
+        <a href="#fbsection5" class="">Section 5</a>
+      </nav>
+      <section id="fbsection1" class="inner-section">
+        <div class="col-md-6 col-md-push-3 bs-docs-booticon bs-docs-booticon-outline text-center ">
+           <div class="col-md-12 brand-text">TASHINA<br/><i class="fa fa-crosshairs"></i><br/>NAVAJO</div><br/>
+           <span class="col-xs-12">THE SOUTHWESTERN INSPIRED SHOP</span>
+           <span class="coming-soon col-xs-12">COMING SOON</span>
+        </div>
+       </section>
+      <section id="fbsection5" class="inner-section">
+        
+        <div id="cbp-vm" class="cbp-vm-switcher cbp-vm-view-grid">
+					<!--<div class="cbp-vm-options">
+						<a href="#" class="cbp-vm-icon cbp-vm-grid cbp-vm-selected" data-view="cbp-vm-view-grid">Grid View</a>
+						<a href="#" class="cbp-vm-icon cbp-vm-list" data-view="cbp-vm-view-list">List View</a>
+					</div>-->
+					<ul>
+						<li>
+							<a class="cbp-vm-image" href="#"><img src="images/1.png"><div class="cbp-vm-price">$19.90</div>
+							</a>
+							<h3 class="cbp-vm-title">Silver beet</h3>
+							<div class="cbp-vm-details">
+								Silver beet shallot wakame tomatillo salsify mung bean beetroot groundnut.
+							</div>
+							<a class="cbp-vm-icon cbp-vm-add" title="Add to Cart" href="#"></a>
+						</li>
+						<li>
+							<a class="cbp-vm-image" href="#"><img src="images/2.png"><div class="cbp-vm-price">$22.90</div></a>
+							<h3 class="cbp-vm-title">Wattle seed</h3>
+							<div class="cbp-vm-details">
+								Wattle seed bunya nuts spring onion okra garlic bitterleaf zucchini.
+							</div>
+							<a class="cbp-vm-icon cbp-vm-add" title="Add to Cart" href="#"></a>
+						</li>
+						<li>
+							<a class="cbp-vm-image" href="#"><img src="images/3.png"><div class="cbp-vm-price">$5.90</div>
+							</a>
+							<h3 class="cbp-vm-title">Kohlrabi bok</h3>
+							<div class="cbp-vm-details">
+								Kohlrabi bok choy broccoli rabe welsh onion spring onion tatsoi ricebean kombu chard.
+							</div>
+							<a class="cbp-vm-icon cbp-vm-add" title="Add to Cart" href="#"></a>
+						</li>
+						<li>
+							<a class="cbp-vm-image" href="#"><img src="images/4.png"><div class="cbp-vm-price">$12.90</div>
+							</a>
+							<h3 class="cbp-vm-title">Melon sierra</h3>
+							<div class="cbp-vm-details">
+								Melon sierra leone bologi carrot peanut salsify celery onion jícama summer purslane.
+							</div>
+							<a class="cbp-vm-icon cbp-vm-add" title="Add to Cart" href="#"></a>
+						</li>
+						<li>
+							<a class="cbp-vm-image" href="#"><img src="images/5.png"><div class="cbp-vm-price">$15.00</div>
+							</a>
+							<h3 class="cbp-vm-title">Celery carrot</h3>
+							<div class="cbp-vm-details">
+								Celery carrot napa cabbage wakame zucchini celery chard beetroot jícama sierra leone.
+							</div>
+							<a class="cbp-vm-icon cbp-vm-add" title="Add to Cart" href="#"></a>
+						</li>
+						<li>
+							<a class="cbp-vm-image" href="#"><img src="images/6.png"><div class="cbp-vm-price">$20.00</div>
+							</a>
+							<h3 class="cbp-vm-title">Catsear</h3>
+							<div class="cbp-vm-details">
+								Catsear cabbage tomato parsnip cucumber pea brussels sprout spring onion shallot swiss .
+							</div>
+							<a class="cbp-vm-icon cbp-vm-add" title="Add to Cart" href="#"></a>
+						</li>
+						  
+					</ul>
+				</div>
+      
+      <!-- End products -->
+      </section>
+        
+    </div>
+  </div>
+  <footer>
+        <div id="social" class="text-center">
+        <ul class="social-icons list-unstyled list-inline">
+          <li>
+            <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook" class="green-tooltip">
+              <div class="social-icon text-center">
+                <i class="fa fa-search"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook" class="green-tooltip">
+              <div class="social-icon text-center">
+                <i class="fa fa-shopping-cart"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook" class="green-tooltip">
+              <div class="social-icon text-center">
+                <i class="fa fa-facebook"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter" class="green-tooltip">
+              <div class="social-icon text-center">
+                <i class="fa fa-twitter"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google Plus" class="green-tooltip">
+              <div class="social-icon text-center">
+                <i class="fa fa-google-plus"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram" class="green-tooltip">
+              <div class="social-icon text-center">
+                <i class="fa fa-instagram"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:author@company.com" data-toggle="tooltip" data-placement="top" title="" data-original-title="Email" class="green-tooltip">
+              <!-- Change to your own email address -->
+              <div class="social-icon text-center">
+                <i class="fa fa-envelope"></i>
+              </div>
+            </a>
+          </li>
+        </ul>
+        
+      </div> 
+      <div class="copyright">
+          &copy; 2014 Tashina Navajo Creations  
+      </div>
+          
+      <!-- End social -->
+      </footer>
+      
+  <script src="js/jquery.min.js"></script>
+  <script src="js/knockout-min.js"></script>
+  <!-- jquery.easing by http://gsgd.co.uk/ : http://gsgd.co.uk/sandbox/jquery/easing/ -->
+  <script src="js/jquery.easing.min.js"></script>
+  <!-- waypoints jQuery plugin by http://imakewebthings.com/ : http://imakewebthings.com/jquery-waypoints/ -->
+  <script src="js/waypoints.min.js"></script>
+  <!-- jquery-smartresize by @louis_remi : https://github.com/louisremi/jquery-smartresize -->
+  <script src="js/jquery.debouncedresize.js"></script>
+  <script src="js/cbpFixedScrollLayout.min.js"></script>
+  <script src="js/cbpViewModeSwitch.js"></script>
+  
+  <script src="js/scripts.js"></script>
+  <script>
+    $(function() {
+      cbpFixedScrollLayout.init();
+    });
+  </script>
+  </div>
 
-    
-  </body>
+
+</body>
+
 </html>
