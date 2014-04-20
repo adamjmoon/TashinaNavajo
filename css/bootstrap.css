@@ -43,22 +43,7 @@ ol ol {
   color: #428bca;
 }
 
-.bs-docs-masthead .bs-docs-booticon {
-margin: 0 auto 10px;
-}
-.bs-docs-booticon-outline {
 
-
-}
-.bs-docs-booticon {
-position: relative
-margin-top: 40px;
-display: block;
-font-weight: 500;
-color: #89dcd8;
-border-radius: 20px;
-cursor: default;
-}
 
 .tooltip {
   position: absolute;

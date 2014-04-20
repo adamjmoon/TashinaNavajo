@@ -145,23 +145,6 @@ hr.separator-alt {
     border-top-color: #ccc;
 }
 
-.brand-name {
-  font-family: monospace !important;
-  font-size: 36px;
-  margin-left: 5px;
-}
-
-.brand {
-  border: 3px solid ;
-  border-radius: 20px;
-  padding: 4px 2px;
-  margin-left: 2px;
-  color: #2c3e50 !important;
-  background-color: #89dcd8;
-  font-size: 36px;
-  line-height: 30px;
-}
-
 .btn-toggle:hover {
   color: #89dcd8;
 }
@@ -255,12 +238,4 @@ box-sizing: border-box;
 outline: none;
 }
 
-.brand-text {
-  font-size: 80px;
-  font-family: monospace;
-}
-
-.brand-desc {
-  border: 1px solid;
-}
 
