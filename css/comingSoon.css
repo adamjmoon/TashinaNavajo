@@ -1,0 +1,45 @@
+/* xs styles go here (mobile) */
+
+.coming-soon {
+    font-size: 30px;
+  }
+
+  .trading-post {
+    margin-top: 50px;
+    padding:0px;
+    border: 13px solid;
+    font-size: 20px;
+    border-radius: 3px;
+    background-color: #AC371E;
+
+  }
+
+@media (min-width: 768px) {
+  /* sm styles go here (tablet) */
+}
+
+@media (min-width: 992px) {
+  /* md styles go here (table/desktop) */
+  
+  .coming-soon {
+    font-size: 60px;
+  }
+
+  .trading-post {
+    margin-top: 50px;
+    padding:0px;
+    border: 13px solid;
+    font-size: 40px;
+    border-radius: 3px;
+    background-color: #AC371E;
+
+  }
+
+
+}
+
+
+@media (min-width: 1200px) {
+  /* lg styles go here (large desktop) */
+  
+}

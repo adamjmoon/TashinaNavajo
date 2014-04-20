@@ -264,16 +264,3 @@ outline: none;
   border: 1px solid;
 }
 
-.coming-soon {
-  font-size: 60px;
-}
-
-.trading-post {
-  margin-top: 50px;
-  padding:0px;
-  border: 13px solid;
-  font-size: 40px;
-  border-radius: 3px;
-  background-color: #AC371E;
-  
-}
