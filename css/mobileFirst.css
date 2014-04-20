@@ -1,0 +1,16 @@
+/* xs styles go here (mobile) */
+
+@media (min-width: 768px) {
+  /* sm styles go here (tablet) */
+}
+
+@media (min-width: 992px) {
+  /* md styles go here (table/desktop) */
+
+}
+
+
+@media (min-width: 1200px) {
+  /* lg styles go here (large desktop) */
+  
+}

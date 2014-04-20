@@ -1,0 +1,29 @@
+#products {
+  	display: flex;
+	flex-flow: row wrap;  
+  
+}
+
+.items {
+  	display: flex;
+	flex-flow: column; 
+	padding-left: 20px;
+	padding-bottom: 15px;
+	border: #CCC dashed thin;
+}
+
+.items > img {
+  	order: -1;
+	align-self: center;
+	margin-top: 5px;
+}
+
+.items > button {
+  	margin-top: auto;
+	width: 100px;
+	align-self: center;
+	color: #666;
+	background-color: #D0EAFD;
+	font-weight: bold;
+	border-radius: 12px;
+}

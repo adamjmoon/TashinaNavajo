@@ -1,0 +1,72 @@
+/* xs styles go here (mobile) */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 9000;
+  padding-top: 3px;
+}
+
+footer .footer-links > li > a {
+    color: #fff;
+}
+
+#social { 
+  background-color: #AC371E;
+  border-top: 1px solid #89dcd8;
+  padding: 3px 0px;
+}
+.social-icons {
+    margin: 0;
+}
+.social li > a,
+.social img {
+    margin: 0;
+    padding: 0;
+}
+.social-icon {
+  display: inline-block;
+  border: 3px solid #2c3e50;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: #89dcd8;
+    color: #2c3e50;
+    font-size: 18px;
+    height: 30px;
+    width: 30px;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.social-icon:hover,
+.social-icon:focus {
+    background-color: #4a4a4a;
+    color: #89dcd8;
+    border-color: #89dcd8;
+}
+
+@media (min-width: 768px) {
+  /* sm styles go here (tablet) */
+}
+
+@media (min-width: 992px) {
+  /* md styles go here (table/desktop) */
+  .social-icon {
+  font-size: 22px;
+  height: 40px;
+  width: 40px;
+}
+}
+
+
+@media (min-width: 1200px) {
+  /* lg styles go here (large desktop) */
+  
+
+.social-icon {
+  font-size: 30px;
+    height: 50px;
+  width: 50px;
+}
+}

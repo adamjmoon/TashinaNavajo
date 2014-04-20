@@ -68,9 +68,16 @@ $(document).ready(function() {
     });
 ----------*/
 
-/*---------- Tooltip ----------
+/*---------- Tooltip ----------*/
 $('.social-icons a, .social-icons-bottom a').tooltip();
-----------*/
+/*----------*/
+
+
+/*---------- FixedScrollLayout ----------*/
+$(function() {
+      cbpFixedScrollLayout.init();
+});
+
 
 /*---------- Sidebar ----------*/
 $("#menu-close").click(function(e) {
@@ -103,11 +110,11 @@ ko.bindingHandlers.headroom = {
     el = document.querySelector("header");
   var headroom = new Headroom(el, {
     "tolerance": 5,
-    "offset": 205,
+    "offset": 70,
     "classes": {
       "initial": "animated",
-    "pinned": "slideDown",
-    "unpinned": "slideUp",
+      "pinned": "swingInX",
+      "unpinned": "swingOutX",
       "top": "headroom--top",
       "notTop": "headroom--not-top"
     }
